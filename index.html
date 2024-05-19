@@ -25,11 +25,11 @@
     <header class="header">
       <div class="container header-container">
         <nav class="nav">
-          <!-- == Logo == -->
+          <!--  Logo  -->
           <a class="logo logo-header" href="./index.html"
             >Web<span class="logo-part">Studio </span>
           </a>
-          <!-- == Nav List == -->
+          <!--  Nav List  -->
           <ul class="nav-list">
             <li>
               <a class="link nav-link current" href="./index.html">Studio</a>
@@ -38,7 +38,7 @@
             <li><a class="link nav-link" href="">Contacts</a></li>
           </ul>
         </nav>
-        <!-- == Address == -->
+        <!--  Address  -->
         <address class="address">
           <ul class="list address-list">
             <li>
@@ -53,9 +53,14 @@
             </li>
           </ul>
         </address>
+        <button class="burger-menu-btn" type="button">
+          <svg class="burger-menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
-    <!-- MAIN PAGE CONTENT ***************************************************************** -->
+    <!-- MAIN PAGE CONTENT -->
     <main>
       <!-- ========= Hero Section ================================ -->
       <section class="section hero-section">
@@ -77,7 +82,7 @@
                   <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
-              <h3 class="under-title teh-item-title">Strategy</h3>
+              <h3 class="teh-item-title">Strategy</h3>
               <p class="text teh-item-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -89,7 +94,7 @@
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
-              <h3 class="under-title teh-item-title">Punctuality</h3>
+              <h3 class="teh-item-title">Punctuality</h3>
               <p class="text teh-item-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -101,7 +106,7 @@
                   <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
-              <h3 class="under-title teh-item-title">Diligence</h3>
+              <h3 class="teh-item-title">Diligence</h3>
               <p class="text teh-item-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
@@ -113,7 +118,7 @@
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
-              <h3 class="under-title teh-item-title">Technologies</h3>
+              <h3 class="teh-item-title">Technologies</h3>
               <p class="text teh-item-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -124,7 +129,7 @@
       </section>
 
       <!-- ======== Team Section =================================== -->
-      <section class="section team-section">
+      <section class="section team-section hidden">
         <div class="container team-section-container">
           <h2 class="title team-section-title">Our Team</h2>
 
@@ -393,7 +398,7 @@
       </section>
 
       <!--======= Portfilio Section ===============================-->
-      <section class="section portfolio-section">
+      <section class="section portfolio-section hidden">
         <div class="container portfolio-section-container">
           <h2 class="title portfolio-section-title">Our Portfolio</h2>
           <ul class="list portfolio-section-list">
@@ -533,7 +538,7 @@
     </main>
 
     <!-- PAGE FOOTER ********************************************************************** -->
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container footer-container">
         <!-- == logo == -->
         <div class="footer-desc-box">
@@ -627,7 +632,7 @@
     </footer>
 
     <!-- MODAL-WINDOW *********************************************************************** -->
-    <div class="backdrop is-open">
+    <div class="backdrop is-open hidden">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="modal-close-icon" width="8" height="8">
