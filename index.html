@@ -21,7 +21,7 @@
   </head>
 
   <body>
-    <!--  PAGE HEADER ************************************************************************-->
+    <!--  PAGE HEADER ==================================================================-->
     <header class="header">
       <div class="container header-container">
         <nav class="nav">
@@ -60,18 +60,18 @@
         </button>
       </div>
     </header>
-    <!-- MAIN PAGE CONTENT -->
+    <!-- MAIN-PAGE-CONTENT ===================================================-->
     <main>
-      <!-- ========= Hero Section ================================ -->
+      <!-- HERO SECTION ================================================= -->
       <section class="section hero-section">
         <div class="container hero-container">
           <h1 class="headline">Effective Solutions for Your Business</h1>
-          <!-- == Hero-Button == -->
+          <!--  ********* Hero-Button ***************************************  -->
           <button class="hero-button" type="button">Order Service</button>
         </div>
       </section>
 
-      <!-- ========= Teh-Stack Section ============================= -->
+      <!--  TEH-STAK SECTION ================================================= -->
       <section class="section teh-stack-section">
         <div class="container teh-stack-container">
           <h2 class="visually-hidden">Business technology</h2>
@@ -128,16 +128,20 @@
         </div>
       </section>
 
-      <!-- ======== Team Section =================================== -->
-      <section class="section team-section hidden">
+      <!--  TEAM SECTION ======================================================== -->
+      <section class="section team-section">
         <div class="container team-section-container">
           <h2 class="title team-section-title">Our Team</h2>
 
           <ul class="list team-section-list">
-            <!-- == team-list-item 1 == -->
+            <!--  ******** team-list-item 1 *********************************   -->
             <li class="team-list-item">
               <img
-                src="./images/our-team/mark-guerrero.jpg"
+                srcset="
+                  ./images/our-team/mark-guerrero-@1x.jpg 1x,
+                  ./images/our-team/mark-guerrero-@2x.jpg 2x
+                "
+                src="./images/our-team/mark-guerrero-@1x.jpg"
                 alt="Mark Guerrero foto"
                 width="264"
                 height="260"
@@ -199,10 +203,14 @@
               </div>
             </li>
 
-            <!-- == team-list-item 2 == -->
+            <!-- ********** team-list-item 2 ******************************* -->
             <li class="team-list-item">
               <img
-                src="./images/our-team/tom-ford.jpg"
+                srcset="
+                  ./images/our-team/tom-ford-@1x.jpg 1x,
+                  ./images/our-team/tom-ford-@2x.jpg 2x
+                "
+                src="./images/our-team/tom-ford-@1x.jpg"
                 alt="Tom Ford foto"
                 width="264"
                 height="260"
@@ -264,10 +272,14 @@
               </div>
             </li>
 
-            <!-- == team-list-item 3 == -->
+            <!-- ************ team-list-item 3 ****************************-->
             <li class="team-list-item">
               <img
-                src="./images/our-team/camila-garcia.jpg"
+                srcset="
+                  ./images/our-team/camila-garcia-@1x.jpg 1x,
+                  ./images/our-team/camila-garcia-@2x.jpg 2x
+                "
+                src="./images/our-team/camila-garcia-@1x.jpg"
                 alt="Camila Garcia foto"
                 width="264"
                 height="260"
@@ -329,10 +341,14 @@
               </div>
             </li>
 
-            <!-- == team-list-item-4 == -->
+            <!-- *********** team-list-item-4 ****************************** -->
             <li class="team-list-item">
               <img
-                src="./images/our-team/daniel-wilson.jpg"
+                srcset="
+                  ./images/our-team/daniel-wilson-@1x.jpg 1x,
+                  ./images/our-team/daniel-wilson-@2x.jpg 2x
+                "
+                src="./images/our-team/daniel-wilson-@1x.jpg"
                 alt="Daniel Wilson foto"
                 width="264"
                 height="260"
@@ -397,12 +413,12 @@
         </div>
       </section>
 
-      <!--======= Portfilio Section ===============================-->
+      <!-- PORTFOLIO SECTION =================================================-->
       <section class="section portfolio-section hidden">
         <div class="container portfolio-section-container">
           <h2 class="title portfolio-section-title">Our Portfolio</h2>
           <ul class="list portfolio-section-list">
-            <!-- == portfolio-list-item-1 == -->
+            <!-- ***********  portfolio-list-item-1 *************************  -->
             <li class="portfolio-list-item">
               <!-- overley: sample:start -->
               <div class="portfolio-overley-wrapper">
@@ -424,7 +440,7 @@
                 <p class="text">App</p>
               </div>
             </li>
-            <!-- == portfolio-list-item-2 == -->
+            <!-- ********** portfolio-list-item-2 **************************** -->
             <li class="portfolio-list-item">
               <div class="portfolio-overley-wrapper">
                 <img
@@ -446,7 +462,7 @@
                 <p class="text">Marketing</p>
               </div>
             </li>
-            <!--  portfolio-list-item-3  -->
+            <!-- *********** portfolio-list-item-3 *************************** -->
             <li class="portfolio-list-item">
               <div class="portfolio-overley-wrapper">
                 <img
@@ -468,7 +484,7 @@
                 <p class="text">App</p>
               </div>
             </li>
-            <!-- == portfolio-list-item-4 == -->
+            <!-- ********* portfolio-list-item-4 **************************** -->
             <li class="portfolio-list-item">
               <div class="portfolio-overley-wrapper">
                 <img
@@ -488,7 +504,7 @@
                 <p class="text">Marketing</p>
               </div>
             </li>
-            <!--  portfolio-list-item-5  -->
+            <!-- ************ portfolio-list-item-5 **************************** -->
             <li class="portfolio-list-item">
               <div class="portfolio-overley-wrapper">
                 <img
@@ -510,7 +526,7 @@
                 <p class="text">Design</p>
               </div>
             </li>
-            <!-- == portfolio-list-item-6 == -->
+            <!-- ********** portfolio-list-item-6 ************************* -->
             <li class="portfolio-list-item">
               <div class="portfolio-overley-wrapper">
                 <img
@@ -537,10 +553,10 @@
       </section>
     </main>
 
-    <!-- PAGE FOOTER ********************************************************************** -->
+    <!-- PAGE FOOTER ============================================================ -->
     <footer class="footer hidden">
       <div class="container footer-container">
-        <!-- == logo == -->
+        <!-- ********* logo ******************************************** -->
         <div class="footer-desc-box">
           <a class="logo logo-footer" href="./index.html"
             >Web<span class="logo-part-footer">Studio </span>
@@ -550,7 +566,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
-        <!-- ====== team social List ====== -->
+        <!-- ********* team social List *******************************-->
         <div class="footer-social-box">
           <p class="footer-description">Social media</p>
           <ul class="footer-social-list">
@@ -608,7 +624,7 @@
             </li>
           </ul>
         </div>
-        <!-- == subscribe-footer-box == -->
+        <!-- ********* subscribe-footer-box ********************************* -->
         <div class="footer-subscribe-box">
           <p class="footer-description">Subscribe</p>
           <form class="footer-subscribe-form">
@@ -631,7 +647,7 @@
       </div>
     </footer>
 
-    <!-- MODAL-WINDOW *********************************************************************** -->
+    <!-- MODAL-WINDOW ========================================================== -->
     <div class="backdrop is-open hidden">
       <div class="modal">
         <button type="button" class="modal-close-btn">
@@ -641,9 +657,9 @@
         </button>
 
         <p class="modal-text">Leave your contacts and we will call you back</p>
-        <!-- ====== Modal Form ====== -->
+        <!-- ************ Modal Form ************************************* -->
         <form class="modal-form">
-          <!-- == user-name == -->
+          <!--  user-name  -->
           <div class="modal-form-fild-wrapper">
             <label class="modal-form-fild-label" for="user-name">Name</label>
             <div class="modal-form-input-covering">
@@ -661,7 +677,7 @@
               </svg>
             </div>
           </div>
-          <!-- == user-phone == -->
+          <!--  user-phone  -->
           <div class="modal-form-fild-wrapper">
             <label class="modal-form-fild-label" for="user-phone">Phone</label>
             <div class="modal-form-input-covering">
@@ -679,7 +695,7 @@
               </svg>
             </div>
           </div>
-          <!-- == user-email == -->
+          <!--  user-email  -->
           <div class="modal-form-fild-wrapper">
             <label class="modal-form-fild-label" for="user-email">Email</label>
             <div class="modal-form-input-covering">
@@ -695,7 +711,7 @@
               </svg>
             </div>
           </div>
-          <!-- == user-comment == -->
+          <!--  user-comment  -->
           <div class="modal-comment-wrapper modal-form-fild-wrapper">
             <label class="modal-form-fild-label" for="user-comment"
               >Comment</label
@@ -707,7 +723,7 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <!-- == privacy-checkbox == -->
+          <!--  privacy-checkbox  -->
           <div class="modal-form-checkbox-wrapper">
             <input
               class="modal-form-checkbox visually-hidden"
@@ -731,7 +747,7 @@
               <a href="" class="privacy-p-link">Privacy Policy</a>
             </label>
           </div>
-          <!-- == Button Submit == -->
+          <!--  Button Submit  -->
           <button class="modal-form-submit" type="submit">Send</button>
         </form>
       </div>

@@ -60,9 +60,9 @@ a {
 }
 
 /* ========================================================================================================================================================
-COMMON 
+EXTENDED
 ======================================================================================================================================================== */
-/* ----- page --------- */
+/* COMMON & MOBILE *********************************************/
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--slate);
@@ -79,10 +79,56 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+  text-transform: capitalize;
+}
+.under-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+/* TABLET ********************************************/
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* DESKTOP ****************************************/
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
 
 /* ========================================================================================================================================================
 HEADER
 ======================================================================================================================================================== */
+/* /* COMMON & MOBILE ************************************ */
 .header {
   border-bottom: 1px solid var(--cornflower);
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
@@ -124,7 +170,7 @@ HEADER
 .burger-menu-icon {
   display: block;
 }
-/* HEADER_TABLET ********************************************/
+/* HEADER_TABLET ******************************************/
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -200,7 +246,7 @@ HEADER
   }
 }
 
-/* HEADER_DESKTOP ****************************************/
+/* HEADER_DESKTOP ***************************************/
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
@@ -229,9 +275,11 @@ HEADER
 /* ========================================================================================================================================================
 HERO_SECTION
 ======================================================================================================================================================== */
+/* COMMON & MOBILE *************************************/
 .hero-section {
   background-color: var(--navy-blue);
-  max-width: 768px;
+  max-width: 320px;
+  min-height: 432px;
   padding: 72px 0;
   margin-left: auto;
   margin-right: auto;
@@ -244,7 +292,7 @@ HERO_SECTION
   background-size: cover;
   background-position: center;
 }
-/* -----------background img--------------------------------------- */
+/* -----------background img------------------ */
 @media screen and (min-resolution: 192dpi) {
   .hero-section {
     background-image: linear-gradient(
@@ -293,10 +341,11 @@ HERO_SECTION
 .hero-button:focus {
   background-color: var(--ocean);
 }
-/* HERO_TABLET ------------------------------------------------*/
+/* HERO_TABLET ****************************************/
 @media screen and (min-width: 768px) {
   .hero-section {
-    max-width: 1158px;
+    max-width: 768px;
+    min-height: 436px;
     padding: 112px 0;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -305,7 +354,7 @@ HERO_SECTION
       url(../images/bg-hero-tablet@1x.jpg);
   }
 
-  /* -----------background img--------------------------------------- */
+  /* -----------background img-------------- */
   @media screen and (min-resolution: 192dpi) {
     .hero-section {
       background-image: linear-gradient(
@@ -322,10 +371,11 @@ HERO_SECTION
     margin-bottom: 36px;
   }
 }
-/* HERO_DESKTOP ----------------------------------------------*/
+/* HERO_DESKTOP ***************************************/
 @media screen and (min-width: 1158px) {
   .hero-section {
     max-width: 1440px;
+    min-height: 600px;
     padding: 188px 0;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -334,7 +384,7 @@ HERO_SECTION
       url(../images/bg-hero-desktop@1x.jpg);
   }
 
-  /* -----------background img--------------------------------------- */
+  /* ---------background img---------------------- */
   @media screen and (min-resolution: 192dpi) {
     .hero-section {
       background-image: linear-gradient(
@@ -350,12 +400,9 @@ HERO_SECTION
   }
 }
 /* ========================================================================================================================================================
-TEH STACK SECTION
+TEH STECK SECTION
 ======================================================================================================================================================== */
-.section {
-  padding-top: 96px;
-  padding-bottom: 96px;
-}
+/* COMMON & MOBILE ************************************ */
 .teh-stack-list {
   display: flex;
   flex-direction: column;
@@ -381,7 +428,7 @@ TEH STACK SECTION
   font-size: 16px;
   color: var(--slate);
 }
-/* TEH STACK SECTION_TABLET  ---------------------------------------------  */
+/* TEHSTECK SECTION_TABLET ************************* */
 @media screen and (min-width: 768px) {
   .teh-stack-list {
     flex-direction: row;
@@ -398,7 +445,7 @@ TEH STACK SECTION
 .teh-item-title {
   text-align: start;
 }
-/* TEH STACK SECTION_DESKTOP ----------------------------------------------*/
+/* TEH STECK SECTION_DESKTOP **************************/
 @media screen and (min-width: 1158px) {
   .teh-stack-list {
     max-width: 1128px;
@@ -421,3 +468,103 @@ TEH STACK SECTION
     display: block;
   }
 }
+
+/* ========================================================================================================================================================
+TEAM SECTION
+======================================================================================================================================================== */
+/* COMMON & MOBILE *************************************/
+.team-section {
+  background-color: var(--cloud);
+}
+
+.team-section-title {
+  margin-bottom: 72px;
+}
+@media screen and (max-width: 767px) {
+  .team-section-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 72px;
+  }
+}
+
+.team-list-item {
+  background: var(--white);
+  text-align: center;
+  width: 264px;
+  height: 428px;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.team-item-box {
+  padding: 32px 0;
+}
+.team-item-title {
+  margin-bottom: 8px;
+}
+.team-item-box .text {
+  margin-bottom: 8px;
+}
+/* --  Team Social List -- */
+
+.team-social-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.team-social-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--iris);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #f4f4fd;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--ocean);
+}
+.team-social-item {
+  width: 40px;
+  height: 40px;
+}
+
+/* TEAM SECTION_TABLET ********************************/
+@media screen and (min-width: 768px) {
+  .team-section-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+    justify-content: center;
+  }
+}
+/* TEAM SECTION_DESKTOP *******************************/
+
+/* ========================================================================================================================================================
+PORTFOLIO SECTION
+======================================================================================================================================================== */
+/* COMMON & MOBILE ************************************/
+/* PORTFOLIO_TABLET **********************************/
+/* PORTFOLIO_DESKTOP *********************************/
+
+/* ========================================================================================================================================================
+PAGE FOOTER
+======================================================================================================================================================= */
+/* COMMON & MOBILE *************************************/
+/* PAGE FOOTER_TABLET *********************************/
+/* PAGE FOOTER_DESKTOP ********************************/
+
+/* ========================================================================================================================================================
+MODAL-WINDOW
+======================================================================================================================================================== */
+/* COMMON & MOBILE *************************************/
+/* MODAL-WINDOW_TABLET ********************************/
+/* MODAL-WINDOW_DESKTOP *******************************/
