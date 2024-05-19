@@ -172,10 +172,6 @@ HEADER
 }
 /* HEADER_TABLET ******************************************/
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-
   .burger-menu-btn {
     display: none;
   }
@@ -248,12 +244,6 @@ HEADER
 
 /* HEADER_DESKTOP ***************************************/
 @media screen and (min-width: 1158px) {
-  .container {
-    max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
   .logo-header {
     margin-right: 76px;
   }
@@ -537,17 +527,29 @@ TEAM SECTION
 }
 
 /* TEAM SECTION_TABLET ********************************/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .team-section-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 64px;
-    justify-content: center;
+    width: 552px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .team-list-item {
+    flex-basis: calc((100% - 24px) / 2);
   }
 }
 /* TEAM SECTION_DESKTOP *******************************/
-
+@media screen and (min-width: 1158px) {
+  .team-section-list {
+    display: flex;
+    gap: 24px;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+}
 /* ========================================================================================================================================================
 PORTFOLIO SECTION
 ======================================================================================================================================================== */
