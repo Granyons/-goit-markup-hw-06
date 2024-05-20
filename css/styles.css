@@ -170,7 +170,8 @@ HEADER
 }
 /* HEADER_TABLET ******************************************/
 @media screen and (min-width: 768px) {
-  .burger-menu-btn {
+  .burger-menu-btn,
+  .mob-menu {
     display: none;
   }
   /* --     Nav List      -- */
