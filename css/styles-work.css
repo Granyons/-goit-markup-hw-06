@@ -39,31 +39,7 @@
 /* ======= PORTFOLIO SECTION ======================================== */
 
 /* **** PAGE FOOTER **************************************************************** */
-.footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
 
-.footer-container {
-  display: flex;
-  align-items: baseline;
-}
-.footer-desc-box {
-  margin-right: 120px;
-}
-.logo-footer {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
-.logo-part-footer {
-  color: var(--cloud);
-}
-.text-footer {
-  color: var(--cloud);
-
-  width: 264px;
-}
 /* --  footer Social List -- */
 .footer-social-box {
   margin-right: 80px;
