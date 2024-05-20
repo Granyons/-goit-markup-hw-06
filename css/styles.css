@@ -345,7 +345,7 @@ MOBILE MENU
     font-size: 20px;
   }
 
-  .mob-menu-address-list. {
+  .mob-menu-address-list {
     display: flex;
     gap: 24px;
     flex-direction: column;
