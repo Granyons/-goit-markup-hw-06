@@ -174,7 +174,7 @@
   max-width: 360px;
   margin-bottom: 16px;
 }
-/*-- == modal-close-btn == -- */
+/*--  modal-close-btn  -- */
 .modal-close-btn {
   position: absolute;
   display: flex;
@@ -239,7 +239,7 @@
   border-color: #4d5ae5;
 }
 
-/* -- ==-input-icon = -- */
+/* -- -input-icon  -- */
 .modal-form-input-icon {
   position: absolute;
   top: 50%;
@@ -251,7 +251,7 @@
 .modal-form-input:focus + .modal-form-input-icon {
   fill: #4d5ae5;
 }
-/* -- == user-comment = -- */
+/* --  user-comment  -- */
 .modal-comment-wrapper {
   margin-bottom: 16px;
 }
@@ -283,7 +283,7 @@
   letter-spacing: 0.04em;
   color: var(--navy-blue-modal);
 }
-/* -- == privacy-checkbox  == -- */
+/* --  privacy-checkbox   -- */
 .modal-form-checkbox-wrapper {
   margin-bottom: 24px;
 }
@@ -330,7 +330,7 @@
   outline: 1px solid var(--iris);
 }
 
-/* -- == Button Submit == -- */
+/* --  Button Submit  -- */
 .modal-form-submit {
   display: block;
   background-color: var(--iris);
