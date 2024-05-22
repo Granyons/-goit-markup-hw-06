@@ -116,7 +116,10 @@ body {
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
+
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -582,12 +585,20 @@ TEH STECK SECTION
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 264px;
   }
   .teh-item-box-icon {
     display: block;
   }
+  .teh-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .teh-item-text {
+    font-weight: 400;
+  }
 }
-
 /* ========================================================================================================================================================
 TEAM SECTION
 ======================================================================================================================================================== */
