@@ -507,7 +507,6 @@ HERO_SECTION
       url(../images/bg-hero-desktop@1x.jpg);
   }
 
-  /* ---------background img---------------------- */
   @media screen and (min-resolution: 192dpi) {
     .hero-section {
       background-image: linear-gradient(
